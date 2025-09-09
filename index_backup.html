@@ -243,7 +243,6 @@
         </div>
     </section>
 
-    <!-- Career Goals Section -->
     <section id="goals" class="goals">
         <div class="container">
             <h2 class="section-title">Career Aspirations</h2>
@@ -335,13 +334,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="schedule-section">
-                    <h3>Schedule a Call</h3>
-                    <p>Prefer to chat? Schedule a time that works for you:</p>
-                    <a href="https://calendly.com/eoloughl-nd/30min" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-calendar-alt"></i>
-                        Schedule on Calendly
-                    </a>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="schedule-section">
+                        <h3>Schedule a Call</h3>
+                        <p>Prefer to chat? Schedule a time that works for you:</p>
+                        <a href="https://calendly.com/eoloughl-nd/30min" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-calendar-alt"></i>
+                            Schedule on Calendly
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -364,7 +375,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag("js", new Date());
         gtag("config", "GA_MEASUREMENT_ID");
-    </script>
-    <script src="script.js"></script>
+    </script>    <script src="script.js"></script>
 </body>
 </html>
